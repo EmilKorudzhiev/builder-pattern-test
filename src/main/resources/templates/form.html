@@ -1,0 +1,26 @@
+<div class="container">
+  <!--#include virtual="header.html" -->
+
+  <main>
+    <section id="registration">
+      <h2>User Registration</h2>
+      <form action="process_registration.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+  </main>
+
+  <!--#include virtual="footer.html" -->
+</div>
